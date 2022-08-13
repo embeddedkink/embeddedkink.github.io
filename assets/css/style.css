@@ -1,0 +1,13 @@
+--- 
+--- 
+
+@import "{{ site.theme }}";
+
+a {
+    color: #949494;
+}
+
+a:hover,
+a:focus {
+    color: rgb(151, 151, 151);
+}
