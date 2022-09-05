@@ -6,6 +6,6 @@ There are plenty of horror stories about insecure applications and data leaks. W
 
 ## Projects
 
-The main project at the time of writing is the digital [Lockbox](https://github.com/embeddedkink/lockbox). Chastity enthusiasts engaging in solo or long distance play will often put keys in a lockbox, take a photo of the combination without looking and send the photo to a website or other person. This is error prone and quite a hassle. Digital and bluetooth-enabled devices exist but these tend to be very low quality or very expensive.
+The main project at the time of writing is the digital [Lockbox](./lockbox.md). Chastity enthusiasts engaging in solo or long distance play will often put keys in a lockbox, take a photo of the combination without looking and send the photo to a website or other person. This is error prone and quite a hassle. Digital and bluetooth-enabled devices exist but these tend to be very low quality or very expensive.
 
 With the EKI Lockbox, it is easy to generate a new password (key), lock the box from behind your keyboard and upload the key somewhere safe. The box can be made very cheaply and is very secure, being tamper evident. The design is available to use freely under GPL v3 but units will also be available pre-assembled in our store.
