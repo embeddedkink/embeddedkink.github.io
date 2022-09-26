@@ -2,6 +2,8 @@
 
 [back](./)
 
+![A white EKI Lockbox with internals](assets/img/white_box.png)
+
 GitHub repositories:
 
 - [control](https://github.com/embeddedkink/lockbox-controller)
@@ -9,6 +11,8 @@ GitHub repositories:
 - [firmware](https://github.com/embeddedkink/lockbox-firmware)
 
 ## About
+
+![A black EKI Lockbox enclosure](assets/img/black_box.png)
 
 This project aims to create a secure lockbox that can be connected to online keyholding services with minimal effort. With a companion app on a desktop, locking up is as easy as running one single command, and uploading the resulting .txt or .png file.
 Usage of the box is fully private and neither the box nor the controlling software pings out to remote servers. Privacy is a right we take very seriously.
