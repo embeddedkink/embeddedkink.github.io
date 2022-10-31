@@ -2,13 +2,14 @@
 
 [back](./)
 
-![A white EKI Lockbox with internals](assets/img/white_box.png)
-
 GitHub repositories:
 
-- [control](https://github.com/embeddedkink/lockbox-controller)
-- [enclosure](https://github.com/embeddedkink/lockbox-enclosure)
-- [firmware](https://github.com/embeddedkink/lockbox-firmware)
+- [Enclosure](https://github.com/embeddedkink/lockbox-enclosure)
+- [Assembly guide](./lockbox-assembly-guide.md)
+- [Firmware](https://github.com/embeddedkink/lockbox-firmware)
+- [Firmware installer](https://embeddedkink.com/lockbox-firmware/)
+
+![A white EKI Lockbox with internals](assets/img/white_box.png)
 
 ## About
 
@@ -31,19 +32,15 @@ The security of the box does not rely on tough steel or unbreakable titanium. In
 
 ## Usage
 
-Connect power to the microcontroller. Put the key into the empty partition of the lockbox. Put the lid onto the box. Lock using the controller, send the password away to your platform of choice (Emlalock is known to accept `.txt` files), and delete it permanently on you local machine. The box can now be safely turned off. It only needs to be turned on again when you have the password. For details on how to use the controller, read [the readme](https://github.com/embeddedkink/lockbox-controller)
+Connect power to the microcontroller. Put the key into the empty partition of the lockbox. Put the lid onto the box. Lock the box, send the password away to your platform of choice (Emlalock is known to accept `.txt` files), and delete it permanently on you local machine. The box can now be safely turned off. It only needs to be turned on again when you have the password and are ready to unlock.
 
-### Recovering
-
-If you had to abort a session, the electronics can be reset and used in a new box. This can be done by simply connecting the usb port on the microcontroller, listening on the UART (`picocom -b 9600 /dev/ttyUSB0` or with the Arduino IDE) and pressing the RESET button on the microcontroller. It will now send data about its status and the password. Use this password with the control software to unlock like normal.
+If you had to abort a session, the electronics can be reset and used in a new box. This can be done by pressing the "flash" button on the nodemcu after it has booted up.
 
 ## Important technical details
 
-[Assembly guide](./lockbox-assembly-guide.md)
-
 ### A note on updates
 
-The box can be updated manually but will not be seeking for the latest updates automatically. Updating the box is not hard, but requires some technical steps. An update utility is in the works. If you are unable to update the box, the version of the control software that matches the firmware of your lock box can always be found on GitHub.
+The box can be updated manually but will not be seeking for the latest updates automatically. Updating the box is not hard, but requires some technical steps. Updates can be done manually using Platformio (or Arduino IDE but that's not officially supported) or using the web flasher.
 
 ### Power
 
@@ -54,5 +51,5 @@ The box allows dupont cables to come out of the bottom. You can power it with a 
 
 ### Compatibility
 
-Early versions of the box were controlled with a TCP connection. This is no longer recommended. Use the latest version of the MCU firmware along with the latest version of the control software. Each can be found in their own repository.
+Early versions of the box were controlled with a TCP connection. This is no longer recommended. Use the latest version of the MCU firmware. This now comes with an easy to use web UI. The C# and Python control software still work but are not recommended.
 Boxes and lids come with their commit hash on the top and bottom. eae25c is a good minimal box but relies on a specially printed locking cam. Later boxes like acaa41 use a horn that comes with the servo that has then be cut to length. Boxes and lids of the same commit hash are guaranteed to be compatible. Some other boxes and lids may be compatible with each other as well, but this is not documented.
