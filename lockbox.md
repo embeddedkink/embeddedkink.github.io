@@ -13,8 +13,7 @@ Related resources:
 
 ## About
 
-This project aims to create a secure lockbox that can be connected to online keyholding services with minimal effort. With a companion app on a desktop, locking up is as easy as running one single command, and uploading the resulting .txt or .png file.
-Usage of the box is fully private and neither the box nor the controlling software pings out to remote servers. Privacy is a right we take very seriously.
+This project aims to create a secure lockbox that can be used with online keyholding services with minimal effort. Usage of the box is fully private and no telemetry is collected by us. Privacy is a right we take very seriously.
 
 The project has been designed to be as easy to set up as possible. Off the shelf components like the NodeMCU Amica and an SG90 servo have been chosen for their wide availability. The enclosure is 3d printed.
 
@@ -32,7 +31,7 @@ The security of the box does not rely on tough steel or unbreakable titanium. In
 
 ![The web interface of the box](assets/img/setup/webpage.png)
 
-Connect power to the microcontroller. Put the key into the empty partition of the lockbox. Put the lid onto the box. Lock the box, send the password away to your platform of choice (Emlalock is known to accept `.txt` files), and delete it permanently on you local machine. The box can now be safely turned off. It only needs to be turned on again when you have the password and are ready to unlock.
+Connect power to the box. Put the key into the empty partition of the lockbox. Put the lid onto the box. Depending on your choice of keyholder/keyholding service you can now press `generate` and `download` and upload the file to the service, or you can let the service generate the key and use that to lock the box. Don't forget to delete the file and/or clear your clipboard. The box can now be safely turned off. It only needs to be turned on again when you have the password and are ready to unlock.
 
 If you had to abort a session, the electronics can be reset and used in a new box. This can be done by pressing the "flash" button on the nodemcu after it has booted up.
 
@@ -40,7 +39,7 @@ If you had to abort a session, the electronics can be reset and used in a new bo
 
 ### A note on updates
 
-The box can be updated manually but will not be seeking for the latest updates automatically. Updating the box is not hard, but requires some technical steps. Updates can be done manually using Platformio (or Arduino IDE but that's not officially supported) or using the web flasher.
+The box can be updated manually but will not be seeking for the latest updates automatically. Updating the box is not hard, but requires some technical steps. Updates can be done manually using Platformio or using the web flasher.
 
 ### Power
 
