@@ -8,11 +8,11 @@ We hope to inspire the industry to move into a new direction, putting the user i
 
 ## Projects
 
-## Security
+### Security
 
 Our mission for safer kink doesn't end with our own projects. We are also happy to help others improve.
 
-As of **2023-6-17** we have found **1** high severity and **1** critical severity vulnerabilities in a total of **1** product.
+As of **2023-6-17** we have found **1 high severity** and **1 critical severity** vulnerabilities in a total of **1** product.
 
 There are products that we think would benefit from security research, but that we do not have the resources to look at. We are currently actively looking for the following:
 
