@@ -14,11 +14,6 @@ Our mission for safer kink doesn't end with our own projects. We are also happy 
 
 As of **2023-7-13** we have found **1 high severity** and **3 critical severity** vulnerabilities in a total of **2** products, impacting an estimated 12_200 users.
 
-There are products that we think would benefit from security research, but that we do not have the resources to obtain. We are currently actively looking for the following:
-
-- Fancysteel .apk file
-
-If you can help, contact us at hello (AT) embeddedkink (DOT) com. Response may at times be delayed.
 
 ### Lockbox
 
