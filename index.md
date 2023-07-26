@@ -6,6 +6,8 @@ By open sourcing the development we do, we aim to make experimentation both easi
 You have probably heard about some of the many sex toys that turned out to be insecure, unsafe, or leaking information. 
 We hope to inspire the industry to move into a new direction, putting the user in charge of their most personal data, making sex toys a worthwhile investment.
 
+You can contact us at hello@embeddedkink.com or on <a rel="me" href="https://mastodon.social/@embeddedkink">Mastodon</a>
+
 ## Projects
 
 ### Security
