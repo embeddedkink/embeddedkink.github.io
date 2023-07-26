@@ -1,0 +1,4 @@
+Contact: mailto:hello@embeddedkink.com
+Expires: 2023-11-30T23:00:00.000Z
+Preferred-Languages: en
+Canonical: embeddedkink.com/.well-known/security.txt
