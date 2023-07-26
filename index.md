@@ -3,19 +3,16 @@
 EKI was born from a desire to make high tech kink applications more accessible. 
 By open sourcing the development we do, we aim to make experimentation both easier and safer.
 
-You have probably heard about some of the many sex toys that turned out to be insecure, unsafe, or leaking information. 
-We hope to inspire the industry to move into a new direction, putting the user in charge of their most personal data, making sex toys a worthwhile investment.
-
-You can contact us at hello@embeddedkink.com or on <a rel="me" href="https://mastodon.social/@embeddedkink">Mastodon</a>
+You have probably heard about some of the many smart sex toys that turned out to be insecure, unsafe, or leaking information. 
+We hope to inspire the industry to move into a new direction, putting the user in charge of their most personal data and making sex toys a worthwhile investment.
 
 ## Projects
 
 ### Security
 
-Our mission for safer kink doesn't end with our own projects. We are also happy to help others improve.
+Our mission for safer kink doesn't end with our own projects. When we come across insecure products, we try to disclose the vulnerabilities in a responsible manner. 
 
-As of **2023-7-13** we have found **1 high severity** and **3 critical severity** vulnerabilities in a total of **2** products, impacting an estimated 12_200 users.
-
+At the time of writing, we have found **1 high severity** and **3 critical severity** vulnerabilities in a **2** different products, impacting an estimated 12.200 users.
 
 ### Lockbox
 
@@ -39,6 +36,4 @@ The user will be able to design a state machine to allow for very flexible scene
 
 ### Chastity devices
 
-We maintain a fork of [Space Buck's](https://github.com/heyspacebuck) parametric chastity cage [here](https://github.com/embeddedkink/parametric-chastity-cage). Our goal is to add small improvements for easier printing. While it is a good cage, this project will make way for a belt soon.
-
-Printable chastity belts are less commonplace than printable chastity cages. Some experimentation has been done at the EKI headquarters but version 0.1 is still far away.
+We maintained a fork of [Space Buck's](https://github.com/heyspacebuck) parametric chastity cage [here](https://github.com/embeddedkink/parametric-chastity-cage). Work on this project has stagnated for the time being.
