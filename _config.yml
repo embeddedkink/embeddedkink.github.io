@@ -2,3 +2,4 @@ theme: jekyll-theme-minimal
 title: Embedded Kink Industries
 logo: /assets/img/logo.png
 description: Innovating open source, safe & smart sex toys
+include: [".well-known"]
