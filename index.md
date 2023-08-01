@@ -1,7 +1,6 @@
 ## About EKI
 
-EKI was born from a desire to make high tech kink applications more accessible. 
-By open sourcing the development we do, we aim to make experimentation both easier and safer.
+EKI was born from a desire to make high tech kink applications better for the user.
 
 You have probably heard about some of the many smart sex toys that turned out to be insecure, unsafe, or leaking information. 
 We hope to inspire the industry to move into a new direction, putting the user in charge of their most personal data and making sex toys a worthwhile investment.
@@ -12,7 +11,7 @@ We hope to inspire the industry to move into a new direction, putting the user i
 
 Our mission for safer kink doesn't end with our own projects. When we come across insecure products, we try to disclose the vulnerabilities in a responsible manner. 
 
-At the time of writing, we have found **1 high severity** and **3 critical severity** vulnerabilities in **2** different products, impacting an estimated 12.200 users.
+At the time of writing, we have found **1 high severity** and **4 critical severity** vulnerabilities in **3** different products, impacting an estimated 12.200 users.
 
 ### Lockbox
 
