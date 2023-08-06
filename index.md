@@ -11,7 +11,7 @@ We hope to inspire the industry to move into a new direction, putting the user i
 
 Our mission for safer kink doesn't end with our own projects. When we come across insecure products, we try to disclose the vulnerabilities in a responsible manner. 
 
-At the time of writing, we have found **1 high severity** and **4 critical severity** vulnerabilities in **3** different products, impacting an estimated 12.200 users.
+So far, we have found medium, high and critical vulnerabilities in 5 different products, impacting tens of thousands users.
 
 ### Lockbox
 
