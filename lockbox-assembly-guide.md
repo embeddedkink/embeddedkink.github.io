@@ -6,7 +6,7 @@
 - Acquire a 9 gram SG90 servo and a NodeMCU Amica (a Lolin does not fit the current box design).
 - Acquire a USB to dupont adapter for power.
 - Cut one of the horns of the servo to length. In the locked position it should stick out a little through its slot so it goes inside the lid when locked.
-- Flash the MCU. Install Platformio and download the repository or use the new web installer: <https://embeddedkink.com/lockbox-firmware/>
+- Flash the MCU. It is recommended to use the web installer: <https://embeddedkink.com/lockbox-firmware/>. Alternatively, you can use [this guide](manual_flashing.md)
 
 ![The web interface of the box](assets/img/setup/installer-installing.png)
 The following error is expected:
